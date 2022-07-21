@@ -1,0 +1,15 @@
+{
+  "extends": "../../configs/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "classic",
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "WebWorker",
+      "WebWorker.ImportScripts",
+      "Webworker.Iterable"
+    ]
+  },
+  "include": ["./client/*"]
+}

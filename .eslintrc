@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["@hfcjoy/typescript"],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/vite.config.ts"] }
+    ]
+  }
+}

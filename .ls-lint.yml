@@ -1,0 +1,10 @@
+ls:
+  .js: kebab-case
+  .ts: kebab-case
+  .d.ts: kebab-case
+  .dir: kebab-case
+
+ignore:
+  - .git
+  - .vscode
+  - node_modules
